@@ -1,7 +1,7 @@
 {
-  "name": "js-stack-from-scratch",
+  "name": "bare-bones-es6",
   "version": "1.0.0",
-  "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
+  "description": "super minimal es6 startup inspired by https://github.com/verekia/js-stack-from-scratch/blob/master/tutorial/5-es6-modules-syntax",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
   },
-  "repository": "verekia/js-stack-from-scratch",
-  "author": "Jonathan Verrecchia - @verekia",
+  "repository": "sms/es6",
+  "author": "Sean Stephenson - @SeanPlusPlus",
   "license": "MIT"
 }

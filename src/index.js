@@ -1,7 +1,7 @@
-import Dog from './dog';
+import Hello from './hello';
 
-const toby = new Dog('Toby');
+const dude = new Hello('World');
 
-console.log(toby.bark());
+console.log(dude.greet());
 
-console.log(toby.wag());
+console.log(dude.stoke());

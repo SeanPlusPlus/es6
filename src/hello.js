@@ -1,18 +1,18 @@
 
-class Dog {
+class Hello {
   constructor(name) {
     this.name = name;
   }
 
-  bark() {
-    return `Wah wah, I am ${this.name}`;
+  greet() {
+    return `Hello ${this.name}`;
   }
 
-  wag() {
+  stoke() {
     return ['a', 'b', 'c', 'd', 'e', 'f'].map(function(el) {
-      return el.toUpperCase()
+      return el.toUpperCase();
     });
   }
 }
 
-export default Dog;
+export default Hello;

@@ -1,4 +1,8 @@
-# 5 - The ES6 modules syntax
+# Bare bones ES6
+
+Adapted from https://github.com/verekia/js-stack-from-scratch/tree/master/tutorial/5-es6-modules-syntax
+
+Note: I changed the `Dog` class to `Hello` but kept the gulp / babel / es6 stuff the same.
 
 Here we simply replace `const Dog = require('./dog')` by `import Dog from './dog'`, which is the newer ES6 modules syntax (as opposed to "CommonJS" modules syntax).
 

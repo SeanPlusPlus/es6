@@ -9,8 +9,8 @@ class Hello {
   }
 
   stoke() {
-    return ['a', 'b', 'c', 'd', 'e', 'f'].map(function(el) {
-      return el.toUpperCase();
+    return ['a', 'b', 'c', 'd', 'e', 'f'].map(function(el, i) {
+      return `${i}: ${el.toUpperCase()}`;
     });
   }
 }
